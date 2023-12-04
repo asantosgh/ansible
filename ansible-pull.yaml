@@ -1,7 +1,5 @@
 ---
-- name: localhost
-  hosts: localhost
-  remote_user: root
+- hosts: all
   
   tasks:
   - name: collect facts about system services
